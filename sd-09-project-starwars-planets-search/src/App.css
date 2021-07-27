@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+}
+
+.input-filter, .select-filter {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1px 5px;
+  width: 120px;
+}
+
+.input-planet {
+  padding: 5px 10px;
+  width: 150px;
+}
+
+.container-filters-main {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-filters {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.table-info {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.fieldset-filter {
+  border: solid rgb(189, 189, 2) 1.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.container-inputs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-list-filters {
+  align-items: center;
+  color: rgb(189, 189, 2);
+  display: flex;
+  margin: 5px 40px;
+}
+
+label, legend {
+  color: rgb(189, 189, 2);
+}
+
+th {
+  background-color: #282c34;
+  color: rgb(189, 189, 2);
+  padding: 5px 20px;
+  text-align: center;
+}
+
+td {
+  border-bottom: solid 0.1px rgb(107, 106, 106);
+  font-size: 15px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.btn-delete-filter {
+  background-color: black;
+  border: none;
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.fieldset-sort {
+  align-items: center;
+  border: solid rgb(189, 189, 2) 1.5px;
+  border-radius: 5px;
+  display: flex;
+  height: 55px;
+  justify-content: space-around;
+  text-align: center;
+  width: 25%;
+}
+
+.container-radio {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-around;
+}
+
+.select-column-sort, .btn-sort {
+  height: 20px;
+}
